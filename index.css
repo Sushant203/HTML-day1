@@ -1,0 +1,23 @@
+/* applies the same css property to all the relative elements */
+p{
+    color: green;
+}
+
+h1{
+    font-size: 20px;
+    color: red;
+
+}
+
+.container{
+    background-color: aqua  ;
+}
+
+/* target the child element of it's parent element */
+.container p{
+    color: red;
+}
+
+
+
+
